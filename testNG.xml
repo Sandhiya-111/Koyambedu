@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNG XML Dependency Suite" verbose="1">
+    <test name="ToolsQA" >
+
+        <classes>
+            <class name="TestScript.Shopupdate">
+
+                    <methods>
+                        <include name="loginPageExecute"/>
+                        <!-- Include other specific methods as needed -->
+                    </methods>
+            </class>
+
+
+
+        </classes>
+    </test>
+</suite>
+

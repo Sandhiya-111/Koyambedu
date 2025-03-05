@@ -1,0 +1,8 @@
+
+<suite name = "Parallel Testing Suite">
+    <test name = "Parallel Tests" parallel = "methods" thread-count = "10">
+        <classes>
+            <class name = "sample" />
+                    </classes>
+    </test>
+</suite>
